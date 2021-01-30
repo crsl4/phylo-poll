@@ -1,6 +1,14 @@
 name = "phylo-poll"
 authors = ["CSL"]
+
+[deps]
+Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+Vega = "239c3e63-733f-47ad-beb7-a12fde22c578"
+
 [compat]
 julia = "1.6.0"
-[deps]
-DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
